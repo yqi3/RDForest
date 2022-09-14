@@ -7,7 +7,7 @@
 library(ggplot2)
 library(ggpubr)
 
-# "FigureA.4.csv" collects results from running grf with different scaling constants for sample fraction using the tuning procedure described in Appendix A.4
+# "FigureA.4.csv" collects results from running grf with different scaling constants for sample fraction using the tuning procedure described in Appendix A.4; the user can replicate these results by running the forest file corresponding to each DGP, with the variable "scale" changed to different values
 results <- read.csv("FigureA.4.csv")
 results$scale <- ifelse(results$scale==0, 0.1, results$scale) # note scale=0.1 means no tuning, i.e., all default parameters are used
 cr <- results[results$type=="cr",]
