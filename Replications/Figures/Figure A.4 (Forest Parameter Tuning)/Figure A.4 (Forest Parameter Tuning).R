@@ -5,6 +5,7 @@
 ######################################
 
 library(ggplot2)
+library(ggpubr)
 
 # "FigureA.4.csv" collects results from running grf with different scaling constants for sample fraction using the tuning procedure described in Appendix A.4
 results <- read.csv("FigureA.4.csv")
