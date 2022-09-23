@@ -10,7 +10,7 @@ Running under: CentOS release 6.5 (Final)
 ```
 Implementations for local linear regressions using [`rdrobust`](https://rdpackages.github.io/rdrobust/) and for the minimax-optimal estimator using [`optrdd`](https://github.com/swager/optrdd) are done via
  ```
-R version 4.0.4 (2021-02-15)
+R version 4.1.3 (2022-03-10)
 Platform: x86_64-apple-darwin17.0 (64-bit)
-Running under: macOS 12.5.1
+Running under: macOS Monterey 12.5
 ```
