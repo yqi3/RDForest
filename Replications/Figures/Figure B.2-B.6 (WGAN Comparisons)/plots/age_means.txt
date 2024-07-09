@@ -1,0 +1,5 @@
+W 0 0 1 1
+source fake real fake real
+Age 48.41 47.43 51.1 50.03
+Latitude 40.33 40.33 40.31 40.31
+Longitude -74.59 -74.59 -74.61 -74.61

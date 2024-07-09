@@ -1,0 +1,5 @@
+W 0 0 1 1
+source fake real fake real
+Turnout 0.39 0.47 0.24 0.44
+Latitude 0.0 0.0 0.01 0.01
+Longitude 0.01 0.01 0.01 0.01

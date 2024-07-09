@@ -1,0 +1,5 @@
+W 0 0 1 1
+source fake real fake real
+Price 28.52 32.66 34.96 42.53
+Latitude 0.0 0.0 0.01 0.01
+Longitude 0.01 0.01 0.01 0.01
