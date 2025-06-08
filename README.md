@@ -1,5 +1,5 @@
 # Replication files for Liu & Qi (2025)
-This repo contains replication files for the figures and tables in Liu & Qi (2025).
+This repo contains replication files for the figures and tables in [Liu & Qi (2025)](https://arxiv.org/abs/2303.11721).
 
 For replication of the simulations, please download and unzip the file "Data.zip" from [here](https://drive.google.com/file/d/1_enCyBQjVbAcFvbLCOin4J2D42NkepOk/view?usp=sharing), and place the unzipped folder under the `Replications` directory.
 
