@@ -19,7 +19,7 @@ feature_trt <- as.data.frame(trt[,c(2,6,5)])
 feature_ctrl <- as.data.frame(ctrl[,c(2,6,5)])
 
 ## Build RFs
-B <- 1000 # number of trees
+B <- 50000 # number of trees
 forestT <- tuned_RDForest(feature_trt, trt$total_adult_patients_hospitalized_confirmed_and_suspected_covid_7_day_sum, 
                           tune.parameters = c(), 
                           type = "trt",
@@ -250,7 +250,7 @@ profit_margin_plot_rf <- ggplot(profit_margin_results_rf, aes(x = profit_margin)
   theme_bw(base_size = 15) +
   theme(plot.title = element_text(hjust = 0.5)) + ylim(plot_PM_range)
 
-ggsave(paste0("emp_rf_temp.png"),
+ggsave(paste0("emp_rf.png"),
        grid.arrange(DPP_plot_rf, UCC_per_bed_plot_rf, profit_margin_plot_rf, ncol = 3),
        width = 16, height = 6)
 
@@ -279,6 +279,6 @@ profit_margin_plot_llf <- ggplot(profit_margin_results_llf, aes(x = profit_margi
   theme_bw(base_size = 15) +
   theme(plot.title = element_text(hjust = 0.5)) + ylim(plot_PM_range)
 
-ggsave(paste0("emp_llf_temp.png"),
+ggsave(paste0("emp_llf.png"),
        grid.arrange(DPP_plot_llf, UCC_per_bed_plot_llf, profit_margin_plot_llf, ncol = 3),
        width = 16, height = 6)
