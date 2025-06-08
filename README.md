@@ -1,7 +1,7 @@
 # Replication files for Liu & Qi (2025)
 This repo contains replication files for the figures and tables in Liu & Qi (2025).
 
-For replication of the simulations, please download and unzip the file "Data.zip" from [here](https://drive.google.com/file/d/1_enCyBQjVbAcFvbLCOin4J2D42NkepOk/view?usp=sharing), and place the unzipped folder under the "Replications" directory.
+For replication of the simulations, please download and unzip the file "Data.zip" from [here](https://drive.google.com/file/d/1_enCyBQjVbAcFvbLCOin4J2D42NkepOk/view?usp=sharing), and place the unzipped folder under the `Replications` directory.
 
 For the simulations, implementations for local linear regressions using [`rdrobust`](https://rdpackages.github.io/rdrobust/) and for random/local linear forests using [`grf`](https://grf-labs.github.io/grf/reference/index.html) are done via
 ```
