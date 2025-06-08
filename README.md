@@ -24,4 +24,4 @@ Platform: x86_64-apple-darwin20
 Running under: macOS Monterey 12.7.6
 ```
 
-Note: Reproducibility of [`grf`](https://grf-labs.github.io/grf/reference/index.html) depends on both seed and computing platform. Exact reproducibility is therefore not guaranteed. See [here](https://grf-labs.github.io/grf/REFERENCE.html#forests-predict-different-values-depending-on-the-platform-even-though-the-seed-is-the-same) for more details.
+Note: Reproducibility of [`grf`](https://grf-labs.github.io/grf/reference/index.html) depends on both seed and computing platform. Exact reproducibility is therefore not guaranteed. However, we expect cross-platform variability to be small given that the simulation results are already averaged across 1000 Monte Carlo replications, and the empirical results are based on 50,000 trees. See [here](https://grf-labs.github.io/grf/REFERENCE.html#forests-predict-different-values-depending-on-the-platform-even-though-the-seed-is-the-same) for more details.
