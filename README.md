@@ -17,7 +17,7 @@ Platform: x86_64-apple-darwin17.0 (64-bit)
 Running under: macOS Monterey 12.5
 ```
 
-For the empirical application using the Covid19 Funding data ([data source 1](https://drive.google.com/file/d/1_enCyBQjVbAcFvbLCOin4J2D42NkepOk/view?usp=sharing), [data source 2](https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/uqq2-txqb/about_data)), please download "rand_hcris_ffy_hosp_a_2024_11_01.dta" and "COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility_--_RAW_20240927.csv" and place them under the "Replications/Figures/Figure 4 & 5 (Covid19 Funding)" directory. Alternatively, users could directly use "Covid19_funding_data_cleaned.csv," which is our combined and cleaned data for visualization and estimation. Implementations for random/local linear forests using [`grf`](https://grf-labs.github.io/grf/reference/index.html) are done via
+For the empirical application using the Covid19 Funding data ([data source 1](https://drive.google.com/file/d/1_enCyBQjVbAcFvbLCOin4J2D42NkepOk/view?usp=sharing), [data source 2](https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/uqq2-txqb/about_data)), please download `rand_hcris_ffy_hosp_a_2024_11_01.dta` and `COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility_--_RAW_20240927.csv` and place them under the `Replications/Figures/Figure 4 & 5 (Covid19 Funding)` directory. Alternatively, users could directly use `Covid19_funding_data_cleaned.csv`, which is our combined and cleaned data for visualization and estimation. Implementations for random/local linear forests using [`grf`](https://grf-labs.github.io/grf/reference/index.html) are done via
 ```
 R version 4.4.1 (2024-06-14)
 Platform: x86_64-apple-darwin20
